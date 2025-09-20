@@ -48,14 +48,6 @@ Deployment as an interactive Streamlit web app
    - Hosted on **Streamlit Community Cloud**.
 
 ---
-
-## 🖥️ Usage
-
-### Run locally
-```bash
-streamlit run app.py
-
-.
 ├── App.py                        # Streamlit web app for real-time predictions
 ├── heart_disease_pipeline.pkl    # Trained Random Forest model with preprocessing pipeline
 ├── requirements.txt              # List of required Python libraries
@@ -65,6 +57,13 @@ streamlit run app.py
 │ ├── notebook3_feature_selection.ipynb       # Notebook 3:(Experimental) feature importance, RFE, Chi-Square, final reduced dataset
 │ ├── notebook4_Supervised-learning_classifiaction.ipynb     # Notebook 4: model training, evaluation, hyperparameter tuning
 │ ├── notebook6_full_pipeline.ipynb                # Final combined notebook (end-to-end workflow + exportable model)
-> 📝 Note: Notebooks **2_pca.ipynb** and **3_feature_selection.ipynb** are included for transparency and experimentation only.  
-> They showcase intermediate analysis (PCA and feature selection) but are **not part of the final deployed pipeline**, which is fully contained in **pipeline.ipynb**.
+📝 Note: notebook2_PCA.ipynb and notebook3_feature_selection.ipynb are included for transparency and experimentation only.
+They showcase intermediate analysis (PCA and feature selection) but are not part of the final deployed pipeline, which is fully contained in notebook6_full_pipeline.ipynb.
 
+===
+
+## 🖥️ Usage
+
+### Run locally
+```bash
+streamlit run app.py
