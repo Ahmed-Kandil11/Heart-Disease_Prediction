@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction Project
 
-🔗 **Live Demo:** [Heart Disease Prediction App](https://your-app-url.streamlit.app)
+🔗 **Live Demo:** [Heart Disease Prediction App](https://heart-disease-prediction-ahmed-kandil11.streamlit.app/)
 
 This project applies machine learning to predict the likelihood of heart disease using the UCI Heart Disease dataset.  
 It demonstrates the full lifecycle of a data science project:
